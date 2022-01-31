@@ -11,9 +11,9 @@
 // e) Allow for negative numbers.
 // f) Present an error message if the argument does not include a number.
 
-const argumentArr = process.argv.slice(2);
+const argumentArr = process.argv.slice(2); //.slice removes some of the initial elements
 
-if (argumentArr.length < 2) { //.length allows us to request two or more arguments
+if (argumentArr.length < 2) { //.length < 2 allows us to request two or more arguments
   console.log("Please include at least two arguments"); //logs error message that we need to include at least two arguments
   return;
 }
@@ -34,7 +34,7 @@ for (let i = 0; i <argumentArr.length; i++) { //for loop to iterate through argu
   }
 }
 
-console.log("sum --", sum);
+console.log("sum --", sum); //consolelog
 
 
 
