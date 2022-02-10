@@ -15,7 +15,6 @@ const actionWhenFound = function (index) {
 
 findWaldo(["Alice", "Bob", "Waldo", "Winston"], actionWhenFound);
 
-
 //refactored findWaldo function using a for each loop instead
 
 /* function findWaldo(array, found) {
