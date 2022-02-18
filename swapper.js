@@ -12,8 +12,8 @@ const swapper = function(key1, object1, key2, object2) {  //starter code, a func
   object1[key1] = keyTwoObject;  //swaps object1[key1] with keyTwoObject
   object2[key2] = keyOneObject;  //swaps object2[key2] with keyOneObject
   
-  console.log('object1: ', object1); 
-  console.log('object2: ', object2);
+  console.log('object1: ', object1); //logs result
+  console.log('object2: ', object2); //logs result
 };
 
 swapper('a', { a: 1 , b: 2, c: 3 }, 'c', { a: 4, b: 3, c: 5 });
